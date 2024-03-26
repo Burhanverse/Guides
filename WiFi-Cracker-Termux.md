@@ -1,42 +1,39 @@
-# Cracker WiFi Using Termux
+# Crack WiFi Using Termux
 
 This document provides a straightforward guide on using a WiFi Cracker tool with the Termux. It's intended for educational purposes only. Ensure you have permission to test on the network you're targeting.
 
 ## Getting Started
 
 ### Prerequisite
-- Termux installed on your device.
-
+- [Termux](https://github.com/termux/termux-app) installed on your device. ([Termux Monet](https://github.com/KitsunedFox/termux-monet) is recommended)
+  
+***Note:*** Don't use the Play Store version of termux as it is no longer maintained.
+  
 ### Installation and Usage
 
-1. **Install Termux**
-   Begin by ensuring the Termux is installed on your device. You can find it on F-Droid or GitHub.
-
-***Note:*** Don't use the Play Store version as it is no longer maintained.
-
-2. **Upgrade Packages**
+1. **Upgrade Packages**
    Open Termux and upgrade the packages to ensure you're working with the latest versions.
    ```bash
    pkg upgrade
    ```
 
-3. **Update Packages**
+2. **Update Packages**
    Next, update the package lists to fetch the latest available versions of the packages.
    ```bash
    pkg update
    ```
 
-4. **Install WiFi Cracker**
+3. **Install WiFi Cracker**
    Download and execute the installer script for the WiFi Cracker tool using curl.
    ```bash
    curl -sSf https://raw.githubusercontent.com/drygdryg/OneShot_Termux_installer/master/installer.sh | bash
    ```
    If the installation process halts or fails, simply rerun the command to attempt the installation again.
 
-5. **Disable WiFi/Data Connection**
+4. **Disable WiFi/Data Connection**
    Ensure your device's WiFi or data connection is turned off to prevent interference during the cracking process.
 
-6. ***Execute the CMD***
+5. ***Execute the CMD***
    Run the appropriate command based on your device's chipset.
 
    - ***For Qualcomm (qcom) chipsets:***

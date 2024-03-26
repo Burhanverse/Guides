@@ -1,16 +1,18 @@
-# WiFi Cracker Guide Using Termux
+# Cracker WiFi Using Termux
 
-This document provides a straightforward guide on using a WiFi Cracker tool with the Termux emulator. It's intended for educational purposes only. Ensure you have permission to test on the network you're targeting.
+This document provides a straightforward guide on using a WiFi Cracker tool with the Termux. It's intended for educational purposes only. Ensure you have permission to test on the network you're targeting.
 
 ## Getting Started
 
 ### Prerequisite
-- Termux Emulator installed on your device.
+- Termux installed on your device.
 
 ### Installation and Usage
 
-1. **Install Termux Emulator**
-   Begin by ensuring the Termux emulator is installed on your device. You can find it in the Google Play Store or F-Droid.
+1. **Install Termux**
+   Begin by ensuring the Termux is installed on your device. You can find it on F-Droid or GitHub.
+
+***Note:*** Don't use the Play Store version as it is no longer maintained.
 
 2. **Upgrade Packages**
    Open Termux and upgrade the packages to ensure you're working with the latest versions.
@@ -34,15 +36,15 @@ This document provides a straightforward guide on using a WiFi Cracker tool with
 5. **Disable WiFi/Data Connection**
    Ensure your device's WiFi or data connection is turned off to prevent interference during the cracking process.
 
-6. **Execute the WiFi Cracker**
+6. ***Execute the CMD***
    Run the appropriate command based on your device's chipset.
 
-   - **For Qualcomm (qcom) chipsets:**
+   - ***For Qualcomm (qcom) chipsets:***
      ```bash
      sudo python OneShot/oneshot.py -i wlan0 --iface-down -K
      ```
 
-   - **For MediaTek (mtk) chipsets:**
+   - ***For MediaTek (mtk) chipsets:***
      ```bash
      sudo python OneShot/oneshot.py -i wlan0 --mtk-wifi --iface-down -K
      ```

@@ -26,7 +26,7 @@ This document provides a straightforward guide on using a WiFi Cracker tool with
 3. **Install WiFi Cracker**
    Download and execute the installer script for the WiFi Cracker tool using curl.
    ```bash
-   curl -sSf https://raw.githubusercontent.com/drygdryg/OneShot_Termux_installer/master/installer.sh | bash
+   curl -sSf https://raw.githubusercontent.com/Burhanverse/OneShot_Termux_installer/master/installer.sh | bash
    ```
    If the installation process halts or fails, simply rerun the command to attempt the installation again.
 
